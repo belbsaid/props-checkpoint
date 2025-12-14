@@ -1,0 +1,29 @@
+
+> props-checkpoint@0.0.0 build
+> vite build
+
+[36mvite v7.2.7 [32mbuilding client environment for production...[36m[39m
+transforming...
+[32m✓[39m 29 modules transformed.
+[31m✗[39m Build failed in 737ms
+[31merror during build:
+[31msrc/main.jsx (4:7): "default" is not exported by "src/App.jsx", imported by "src/main.jsx".[31m
+file: [36mC:/Users/nokkh/WorkSpace/ReactApps/props-checkpoint/src/main.jsx:4:7[31m
+[33m
+2: import { createRoot } from 'react-dom/client'
+3: import './index.css'
+4: import App from './App.jsx'
+          ^
+5: 
+6: createRoot(document.getElementById('root')).render(
+[31m
+    at getRollupError (file:///C:/Users/nokkh/WorkSpace/ReactApps/props-checkpoint/node_modules/rollup/dist/es/shared/parseAst.js:401:41)
+    at error (file:///C:/Users/nokkh/WorkSpace/ReactApps/props-checkpoint/node_modules/rollup/dist/es/shared/parseAst.js:397:42)
+    at Module.error (file:///C:/Users/nokkh/WorkSpace/ReactApps/props-checkpoint/node_modules/rollup/dist/es/shared/node-entry.js:16956:16)
+    at Module.traceVariable (file:///C:/Users/nokkh/WorkSpace/ReactApps/props-checkpoint/node_modules/rollup/dist/es/shared/node-entry.js:17412:29)
+    at ModuleScope.findVariable (file:///C:/Users/nokkh/WorkSpace/ReactApps/props-checkpoint/node_modules/rollup/dist/es/shared/node-entry.js:15076:39)
+    at Identifier.bind (file:///C:/Users/nokkh/WorkSpace/ReactApps/props-checkpoint/node_modules/rollup/dist/es/shared/node-entry.js:5423:40)
+    at CallExpression.bind (file:///C:/Users/nokkh/WorkSpace/ReactApps/props-checkpoint/node_modules/rollup/dist/es/shared/node-entry.js:2809:28)
+    at CallExpression.bind (file:///C:/Users/nokkh/WorkSpace/ReactApps/props-checkpoint/node_modules/rollup/dist/es/shared/node-entry.js:12123:15)
+    at Property.bind (file:///C:/Users/nokkh/WorkSpace/ReactApps/props-checkpoint/node_modules/rollup/dist/es/shared/node-entry.js:2813:23)
+    at ObjectExpression.bind (file:///C:/Users/nokkh/WorkSpace/ReactApps/props-checkpoint/node_modules/rollup/dist/es/shared/node-entry.js:2809:28)[39m
